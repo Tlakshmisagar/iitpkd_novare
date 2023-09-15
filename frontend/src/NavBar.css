@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+}
+
+.logo{
+    margin: 10;
+    background-color: bisque;
+}
