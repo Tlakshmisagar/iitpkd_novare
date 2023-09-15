@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NavBar.css';
+import '../styles/NavBar.css';
 
 function Navbar() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
