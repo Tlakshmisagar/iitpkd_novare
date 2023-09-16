@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar';
+import Captions from './components/Captions'
 
 function App() {
   return (
@@ -9,8 +10,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-        {/* Your content goes here */}
-      
+        <Captions />
       </main>
     </div>
   );

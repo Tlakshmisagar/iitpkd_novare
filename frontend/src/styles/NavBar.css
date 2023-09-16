@@ -1,8 +1,7 @@
-nav{
-    display: flex;
+.bg-body-tertiar{
+    background-color: lightsalmon;
 }
 
-.logo{
-    margin: 10;
-    background-color: bisque;
+.nav-item a{
+    color: black;
 }
