@@ -1,6 +1,7 @@
 // import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
-import Logo from "../images/Untitled.png";
+// import Logo from "../images/Untitled.png";
 
 function Navbar() {
   // const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -10,38 +11,38 @@ function Navbar() {
   // };
 
   return (
-    <nav class="navbar bg-body-tertiar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <img
+    <nav className="navbar position-fixed z-3 w-100 border-bottom border-dark-subtle py-0 bg-light-subtle">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">
+          {/* <img
             src={Logo}
             alt="Logo"
             width="50"
             height="36"
-            class="d-inline-block align-text-top"
-          />
-          Novare
-        </a>
+            className=""
+          /> */}
+          <h3 className="">Novare</h3>
+        </Link>
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">
+            <Link className="nav-Link active" aria-current="page" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-Link" to="/gallery">
               Gallery
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-Link" to="/team">
               Team
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-Link" to="/contact">
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
