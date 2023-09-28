@@ -4,15 +4,10 @@ import "../styles/NavBar.css";
 // import Logo from "../images/Untitled.png";
 
 function Navbar() {
-  // const [isDropdownVisible, setDropdownVisible] = useState(false);
-
-  // const toggleDropdown = () => {
-  //   setDropdownVisible(!isDropdownVisible);
-  // };
 
   return (
-    <nav className="navbar position-fixed z-3 w-100 border-bottom border-dark-subtle py-0 bg-light-subtle">
-      <div className="container-fluid">
+    <nav className="navbar position-fixed z-3 w-100 border-bottom border-dark-subtle py-0 bg-light-subtle ">
+      <div className="container-fluid container">
         <Link className="navbar-brand" to="/">
           {/* <img
             src={Logo}
@@ -25,32 +20,32 @@ function Navbar() {
         </Link>
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <Link className="nav-Link" to="/trails">
+            <Link className="nav-Link container" to="/trails">
               Trails
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-Link" to="/gallery">
+            <Link className="nav-Link container" to="/gallery">
               Gallery
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-Link" to="/articles">
+            <Link className="nav-Link container" to="/articles">
               Articles
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-Link" to="/team">
+            <Link className="nav-Link container" to="/team">
               Team
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-Link" to="/about">
-              About Us
+            <Link className="container" to="/about">
+              About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-Link" to="/contact">
+            <Link className="nav-Link container" to="/contact">
               Contact Us
             </Link>
           </li>
