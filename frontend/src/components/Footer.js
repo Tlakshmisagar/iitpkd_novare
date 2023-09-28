@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             {/* <!-- Footer --> */}
-            <footer className="text-center text-lg-start bg-light text-muted fixed-position">
+            <footer className="text-center text-lg-start bg-light text-muted position-relative z-2">
                 {/* <!-- Section: Social media --> */}
                 <section className="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
                     {/* <!-- Left --> */}

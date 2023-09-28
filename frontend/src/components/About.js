@@ -2,12 +2,15 @@ import Nature from "../images/nature1.jpg";
 export default function About() {
   return (
     <>
-      <div className="container">
+
+<div className="py-4"></div>
+      <div className="">
       <img
-        className="img-fluid" 
+        className="img-fluid position-fixed z-1" 
         src={Nature} alt="something" 
       />
-        <h3 className="mt-1 mb-0">NOVARE CLUB</h3>
+      <div className="z-2 position-relative text-white text-center">
+        <h3 className="mt-1 mb-0 align-middle">NOVARE CLUB</h3>
         <p className="m-auto">IIT Palakkad</p>
         
 
@@ -22,7 +25,8 @@ export default function About() {
           </li>
           <li>BEING A SUSTAINABLE AND ECO FRIENDLY TRAVELLER</li>
         </ul>
-
+        </div>
+        <div className="z-2 position-relative bg-white">
         <p>
           Welcome to Novare, the Trekking and Adventure Club of IIT Palakkad!
           Started as a bunch of friends interested in adventures now we have a
@@ -55,13 +59,39 @@ export default function About() {
           sessions to enhance your trekking skills, build resilience, and foster
           a spirit of teamwork and unity.
         </p>
-        <p>
+        <p className="mb-0">
+          Join us at Novare and embark on a journey of a lifetime. Experience
+          the thrill of conquering new heights, forging lifelong friendships,
+          and connecting with nature in ways you've never imagined. Get ready to
+          challenge yourself, explore the Western Ghats, and create memories
+          that will last a lifetime.
+          Join us at Novare and embark on a journey of a lifetime. Experience
+          the thrill of conquering new heights, forging lifelong friendships,
+          and connecting with nature in ways you've never imagined. Get ready to
+          challenge yourself, explore the Western Ghats, and create memories
+          that will last a lifetime.
+          Join us at Novare and embark on a journey of a lifetime. Experience
+          the thrill of conquering new heights, forging lifelong friendships,
+          and connecting with nature in ways you've never imagined. Get ready to
+          challenge yourself, explore the Western Ghats, and create memories
+          that will last a lifetime.
+          Join us at Novare and embark on a journey of a lifetime. Experience
+          the thrill of conquering new heights, forging lifelong friendships,
+          and connecting with nature in ways you've never imagined. Get ready to
+          challenge yourself, explore the Western Ghats, and create memories
+          that will last a lifetime.
+          Join us at Novare and embark on a journey of a lifetime. Experience
+          the thrill of conquering new heights, forging lifelong friendships,
+          and connecting with nature in ways you've never imagined. Get ready to
+          challenge yourself, explore the Western Ghats, and create memories
+          that will last a lifetime.
           Join us at Novare and embark on a journey of a lifetime. Experience
           the thrill of conquering new heights, forging lifelong friendships,
           and connecting with nature in ways you've never imagined. Get ready to
           challenge yourself, explore the Western Ghats, and create memories
           that will last a lifetime.
         </p>
+        </div>
       </div>
       {/* <h1 className="py-5">This is about us page</h1> */}
     </>
