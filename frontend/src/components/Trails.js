@@ -2,7 +2,6 @@
 export default function Trails() {
     return (
         <>
-            <div className="py-5"></div>
             <div className="row row-cols-1 row-cols-md-3 g-4 text-center">
                 <div className="col">
                     <div className="card">
