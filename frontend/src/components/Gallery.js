@@ -3,7 +3,6 @@ export default function Gallery(){
     return(
         <>
         <div className="container position-relative">
-        <h1 className="py-5">This is gallery page</h1>
         <div className="card text-bg-dark text-center">
   <img src={Nature} className="card-img" alt="..."/>
   <div className="card-img-overlay ">

@@ -6,7 +6,7 @@ export default function Captions() {
     <>
       <div
         id="carouselExampleDark"
-        className="carousel carousel slide w-75 mx-auto py-5 container"
+        className="carousel carousel slide w-75 mx-auto container"
       >
         <div className="carousel-indicators">
           <button

@@ -4,7 +4,7 @@ export default function About() {
     <>
       <div className="container">
       <img
-        className="img-fluid pt-5 " 
+        className="img-fluid" 
         src={Nature} alt="something" 
       />
         <h3 className="mt-1 mb-0">NOVARE CLUB</h3>
