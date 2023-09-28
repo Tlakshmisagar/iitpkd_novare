@@ -16,6 +16,7 @@ function App() {
     <div className="position-relative">
       <Router basename="/">
         <Navbar />
+        <div className="py-5"></div>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/trails" element={<Trails />}></Route>
