@@ -25,8 +25,8 @@ function Navbar() {
         </Link>
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <Link className="nav-Link active" aria-current="page" to="/about">
-              About
+            <Link className="nav-Link" to="/trails">
+              Trails
             </Link>
           </li>
           <li className="nav-item">
@@ -35,8 +35,18 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-Link" to="/articles">
+              Articles
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-Link" to="/team">
               Team
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-Link" to="/about">
+              About Us
             </Link>
           </li>
           <li className="nav-item">
@@ -44,6 +54,7 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
+
         </ul>
       </div>
     </nav>
