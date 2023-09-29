@@ -3,7 +3,7 @@ import Nature2 from "../images/nature2.jpg";
 
 export default function Captions() {
   return (
-    <>
+    <div className="z-2 position-relative bg-white">
       <div
         id="carouselExampleDark"
         className="carousel carousel slide w-75 mx-auto container"
@@ -84,7 +84,7 @@ export default function Captions() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="container">
+      <div className="container z-2 position-relative bg-white">
         <p>
           Welcome to Novare , the adventure and trekking club of IIT Palakkad !
           IIT Palakkad , being located in the lap of the mighty Western Ghat
@@ -100,6 +100,6 @@ export default function Captions() {
           untamed Indian landscapes. Let the journey begin!
         </p>
       </div>
-    </>
+    </div>
   );
 }

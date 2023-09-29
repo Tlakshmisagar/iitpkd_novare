@@ -1,7 +1,7 @@
 import Nature from "../images/nature1.jpg";
 export default function Gallery() {
     return (
-        <>
+        <div className="z-2 position-relative bg-white">
 
             <div className="py-5"></div>
             <div className="container position-relative">
@@ -14,6 +14,6 @@ export default function Gallery() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
