@@ -2,20 +2,35 @@ export default function Articles() {
   return (
     <div className="z-2 position-relative bg-white">
       <div className="container position-relative">
-        <h1 className="py-5">
-          This is articles page Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Expedita quae nihil laudantium delectus possimus?
-          Maxime tenetur cum libero porro cumque, alias amet, sequi aspernatur
-          dolorum officia possimus quas unde doloremque praesentium. Officiis
-          ipsam ratione iusto, nulla, soluta illum vitae neque consequatur rem
-          possimus officia. Molestias quam consectetur amet nostrum asperiores
-          recusandae possimus adipisci obcaecati fugit doloribus ut esse,
-          quaerat officia tempore ipsam ad et consequatur laboriosam fugiat
-          corrupti! Voluptates at tempore architecto quaerat expedita velit
-          ducimus quod facilis quibusdam voluptate earum rerum atque minus
-          obcaecati quis, vero maiores nulla iusto est quia quas? Reprehenderit
-          minima alias incidunt, dolore soluta consequatur.
-        </h1>
+        <div className="pt-3"></div>
+        <div class="card mb-3 mt-5">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src=" https://drive.google.com/uc? export=view&id=1EUZ4I0REAdP2RSCq0fVGAJpN7GFTZjGK" class="img-fluid rounded-start" alt="..."/>
+            </div>
+            <div class="col-md-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">Article: 1</h5>
+                <p class="card-text">Why being fit matters for trekking ?</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 mt-5">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="..." class="img-fluid rounded-start" alt="..."/>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
