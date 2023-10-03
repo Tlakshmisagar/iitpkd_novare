@@ -16,7 +16,7 @@ onMouseLeave={() => setIsHovered(false)}>
         src={props.picurl}
         className="card-img-top"
         alt="..."
-        style={{ maxHeight: 200 + "px" }}
+        style={{ maxHeight: 230 + "px" }}
       />
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
