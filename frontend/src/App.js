@@ -17,7 +17,7 @@ function App() {
       <Router basename="/">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/iitpkd_novare" element={<HomePage />}></Route>
           <Route path="/trails" element={<Trails />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/articles" element={<Articles />}></Route>
