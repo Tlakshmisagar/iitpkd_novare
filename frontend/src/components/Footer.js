@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       {/* <!-- Footer --> */}
-      <footer className="sticky-bottom z-1 position-bottom text-center text-lg-start bg-dark text-muted ">
+      <footer className="sticky-bottom z-1 text-center text-lg-start bg-dark text-muted ">
         {/* <!-- Section: Social media --> */}
         <section className="d-flex justify-content-center justify-content-lg-between p-3 border-bottom container">
           {/* <!-- Left --> */}
@@ -62,9 +62,9 @@ export default function Footer() {
               {/* <!-- Grid column --> */}
 
               {/* <!-- Grid column --> */}
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
                 {/* <!-- Links --> */}
-                <h6 className="text-uppercase fw-bold mb-4">Novare</h6>
+                <h6 className="text-uppercase fw-bold mb-3">Novare</h6>
                 <p>
                   <Link to="/about" className="text-reset ">
                     About
