@@ -48,10 +48,6 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="flex" style={{}}>
-            <div></div>
-            <div></div>
-          </div>
         </div>
       </div>
     </div>
