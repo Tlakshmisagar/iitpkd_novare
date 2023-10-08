@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       {/* <!-- Footer --> */}
-      <footer className="sticky-bottom z-1 text-center text-lg-start bg-dark text-muted ">
+      <footer className="z-2 position-relative text-center text-lg-start bg-dark text-muted ">
         {/* <!-- Section: Social media --> */}
         <section className="d-flex justify-content-center justify-content-lg-between p-3 border-bottom container">
           {/* <!-- Left --> */}

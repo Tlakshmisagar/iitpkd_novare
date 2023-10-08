@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="z-2 position-relative">
         <div className="py-4"></div>
         <div className="text-white text-center container">
-          <p className="display-3 " style={{ paddingTop: 240 }}>
+          <p className="display-3 " style={{ paddingTop: 240}}>
             Contact Us
           </p>
           <p className="m-auto fw-light" style={{ paddingBottom: 120 }}>
