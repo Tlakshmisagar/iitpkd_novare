@@ -15,14 +15,14 @@ export default function Contact() {
       <div className="z-2 position-relative">
         <div className="py-4"></div>
         <div className="text-white text-center container">
-          <p className="display-3 " style={{ paddingTop: 240}}>
+          <p className="display-3 " style={{ paddingTop: "4em"}}>
             Contact Us
           </p>
-          <p className="m-auto fw-light" style={{ paddingBottom: 120 }}>
+          <p className="m-auto fw-light" style={{ paddingBottom: "7em"}}>
             For any content partnerships and queries, feel free to contact Us
           </p>
         </div>
-        <div className="bg-white" style={{ paddingTop: 50, paddingBottom: 50 }}>
+        <div className="bg-white" style={{ paddingTop:"3em", paddingBottom: "3em" }}>
           <div class="container px-4">
             <div class="row gx-5">
               <div class="col ">

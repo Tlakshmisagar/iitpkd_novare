@@ -13,17 +13,17 @@ export default function About() {
 
         <div className="z-2 position-relative">
           <div className="text-white text-center container">
-            <p className="display-3 " style={{ paddingTop: 240 }}>
+            <p className="display-3 " style={{ paddingTop: "4em" }}>
               About Us
             </p>
-            <p className="m-auto fw-light" style={{ paddingBottom: 120 }}>
+            <p className="m-auto fw-light" style={{ paddingBottom: "7em" }}>
               Adventure awaits where the path less traveled beckons, and with
               each step, we discover the beauty of both the world and ourselves
             </p>
           </div>
           <div className=" bg-white ">
             <div className="container">
-              <p className="display-4 text-center" style={{ paddingTop: 10 }}>
+              <p className="display-4 text-center" style={{ paddingTop: "0.5em" }}>
                 Novare Club
               </p>
               <p className="fw-light text-center">IIT PALAKKAD</p>
