@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar position-fixed z-3 w-100 border-bottom border-dark-subtle py-0 bg-dark ">
       <div className="container-fluid container">
-        <Link className="navbar-brand text-light" to="/">
+        <Link className="navbar-brand text-light" to="/iitpkd_novare">
           {/* <img
             src={Logo}
             alt="Logo"

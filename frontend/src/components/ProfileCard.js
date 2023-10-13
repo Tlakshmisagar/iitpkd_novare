@@ -48,16 +48,16 @@ const ProfileCard = (props) => {
         <p>
           {mail_icon} 
           <span> - </span>
-          <a href="#" className="link-opacity-75-hover">
+          <a href="#" className="link-opacity-75-hover" target="_blank">
             {props.email}
           </a>
         </p>
-        <Link to={props.insta}>
+        <a href={props.insta} target="_blank">
           <button className="btn btn-primary rounded-pill">
             {insta_icon}
             <span> Instagram</span>
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );
