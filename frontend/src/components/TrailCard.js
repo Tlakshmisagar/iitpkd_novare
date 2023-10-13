@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 export default function TrailCard(props) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -8,7 +9,7 @@ export default function TrailCard(props) {
     cursor: 'pointer',
   };
   return(
-    <><div className="col">
+    <Link to={props.trailLink}><div className="col">
     <div className="card" style={cardStyle}
 onMouseEnter={() => setIsHovered(true)}
 onMouseLeave={() => setIsHovered(false)}>
@@ -27,5 +28,5 @@ onMouseLeave={() => setIsHovered(false)}>
         </p>
       </div>
     </div>
-  </div></>
+  </div></Link>
   )}

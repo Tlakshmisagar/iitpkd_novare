@@ -54,15 +54,16 @@ export default function Contact() {
           <div class="container px-4">
             <div class="row gx-5">
               <div class="col ">
-                <div class="p-3 ">
+                <div class="py-3 ">
                   <a
                     href="https://instagram.com/novare_iitpkd?igshid=MzNlNGNkZWQ4Mg=="
                     className="me-4 text-reset d-flex justify-content-center" /*target="_blank" */
                   >
                     {insta_icon}
                   </a>
-                  <h4 className="text-center">Instagram</h4>
-                  <p className="text-center">novare_iitpkd</p>
+                  <div className="translate-middle">
+        Instagram
+      </div>
                 </div>
               </div>
               <div class="col">
