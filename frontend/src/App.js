@@ -11,12 +11,17 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import TrailContent from "./components/TrailContent";
+import ArticleContent from "./components/ArticleContent";
 import details from "./trailcontents";
+import artdetails from "./articlecontents";
 
 function App() {
   // Create an array of Route components using the map function
-  const routes = Object.keys(details).map((key) => (
+  const trailroutes = Object.keys(details).map((key) => (
     <Route key={key} path={`/${key}`} element={<TrailContent url={key} />} />
+  ));
+  const articleroutes = Object.keys(artdetails).map((key) => (
+    <Route key={key} path={`/${key}`} element={<ArticleContent url={key} />} />
   ));
 
   return (
@@ -31,7 +36,8 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {routes}
+          {trailroutes}
+          {articleroutes}
         </Routes>
         <Footer />
       </Router>
