@@ -1,5 +1,5 @@
 const artdetails = {"article1":{
-    title:"Competitive Programming",
+    title:"Competitive coding",
     url:"https://www.codechef.com/users/mdadnan123",
     desc:"I am pretty much active on sites like codechef and codeforces to improve my skills in competitive coding."
 },

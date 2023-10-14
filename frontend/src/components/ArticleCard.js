@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function ArticleCard(props) {
     
     return (<div className="row g-0 bg-body-secondary position-relative my-5 shadow-lg">
-    <div className="col-md-6 mb-md-0 p-md-4">
+    <div className="col-md-5 mb-md-0 p-md-4">
       <img src={props.picurl} className="w-100" alt="..."/>
     </div>
     <div className="col-md-6 p-4 ps-md-0">
