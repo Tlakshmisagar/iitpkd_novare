@@ -26,22 +26,17 @@ export default function TrailContent(props) {
               </p>
             </div>
             {/* content on photo end  */}
-            <div className=" bg-white text-black">
+            <div className=" bg-white text-black ">
               <div className="container text-left">
                 {/* Heading part */}
                 <p className="display-4" style={{ paddingTop: "0.5em" }}>
                   {details[key].title}
                 </p>
-                <p className="fw-light ">
+                <p className="fw-light mb-0 pb-3">
                   The journey of a thousand miles begins with a singe step
                 </p>
                 {/* Heading part end  */}
-                {/* content part */}
-                <div className="fs-5">
-                  <p className="p-3 mb-0">{details[key].content}</p>
-                  {/* <div className="p-3"></div> */}
-                </div>
-                {/* content part end  */}
+                
               </div>
             </div>
             <div
@@ -147,6 +142,16 @@ export default function TrailContent(props) {
                     <div className="pt-3 " style={{color: "limegreen"}}>{details[key].Difficulty_level}</div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="bg-white text-black">
+              <div className="container text-left">
+                {/* content part */}
+                <div className="fs-5">
+                  <p className="p-3 mb-0">{details[key].content}</p>
+                  {/* <div className="p-3"></div> */}
+                </div>
+                {/* content part end  */}
               </div>
             </div>
           </div>
