@@ -13,10 +13,10 @@ export default function About() {
 
         <div className="z-2 position-relative">
           <div className="text-white text-center container">
-            <p className="display-3 " style={{ paddingTop: "4em" }}>
+            <p className="display-3 " style={{ paddingTop: "14rem" }}>
               About Us
             </p>
-            <p className="m-auto fw-light" style={{ paddingBottom: "7em" }}>
+            <p className="m-auto fw-light" style={{ paddingBottom: "7rem" }}>
               Adventure awaits where the path less traveled beckons, and with
               each step, we discover the beauty of both the world and ourselves
             </p>
@@ -29,7 +29,6 @@ export default function About() {
               <p className="fw-light text-center">IIT PALAKKAD</p>
               <img
                 className="rounded container my-1"
-                // src="https://www.iitr.ac.in/hec/img/about-img.jpg"
                 src={Nature2}
                 alt=""
               />

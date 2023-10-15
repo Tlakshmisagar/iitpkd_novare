@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const ProfileCard = (props) => {
   let mail_icon = (
@@ -48,16 +48,16 @@ const ProfileCard = (props) => {
         <p>
           {mail_icon} 
           <span> - </span>
-          <a href="#" className="link-opacity-75-hover">
+          <a href="/" className="link-opacity-75-hover">
             {props.email}
           </a>
         </p>
-        <Link to={props.insta}>
+        <a href={props.insta} target="_blank_">
           <button className="btn btn-primary rounded-pill">
             {insta_icon}
             <span> Instagram</span>
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );
