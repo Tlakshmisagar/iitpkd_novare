@@ -6,7 +6,7 @@ export default function Captions() {
     <div className="z-2 position-relative bg-white">
       <div
         id="carouselExampleDark"
-        className="carousel carousel slide w-75 mx-auto container"
+        className="carousel carousel slide"
       >
         <div className="carousel-indicators">
           <button

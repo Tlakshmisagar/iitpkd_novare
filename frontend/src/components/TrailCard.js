@@ -9,14 +9,11 @@ export default function TrailCard(props) {
     cursor: "pointer",
   };
   return (
-    <Link to={props.trailLink} >
+    <Link to={props.trailLink} className='text-decoration-none'>
       <div className="col">
-        <div
-          className="card"
-          style={cardStyle}
+        <div className="card shadow-lg" style={cardStyle}
           onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
+          onMouseLeave={() => setIsHovered(false)}>
           <img
             src={props.picurl}
             className="card-img-top"
@@ -25,10 +22,10 @@ export default function TrailCard(props) {
           />
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
-            <p className="" style={{}}>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            <p className="card-text">
+              This is a longer card with supporting text below as a
+              natural lead-in to additional content. This content is a
+              little bit longer.
             </p>
           </div>
         </div>
