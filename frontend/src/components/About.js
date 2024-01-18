@@ -3,10 +3,9 @@ import Nature2 from "../images/nature2.jpg";
 export default function About() {
   return (
     <>
-      {/* <div className="py-4"></div> */}
       <div className="">
         <img
-          className="img-fluid position-fixed "
+          className="img-fluid position-fixed top-0"
           src={Nature}
           alt="something"
         />

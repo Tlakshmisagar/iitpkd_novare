@@ -5,7 +5,7 @@ import "../styles/NavBar.css";
 
 function Navbar() {
   return (
-      <nav className="navbar position-fixed z-2 w-100 navbar-expand-lg navbar-dark bg-dark ">
+      <nav className="navbar position-relative z-2 w-100 navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link className="navbar-brand" to="/iitpkd_novare">
             Novare

@@ -5,9 +5,9 @@ import munnar from "../images/munnar.jpg"
 export default function Trails() {
   return (
     <>
-      <div className="py-5 z-2 position-relative bg-white">
+      <div className="py-4 z-2 position-relative bg-white">
         <div className="container position-relative z-2 bg-white">
-          <div className="row row-cols-1 row-cols-md-3 g-4 text-center pt-5">
+          <div className="row row-cols-1 row-cols-md-3 g-4 text-center pt-4">
             <TrailCard trailLink="/dhoni" picurl={dhoni} title="Dhoni Waterfalls Trek"/>
             <TrailCard trailLink="/chimmony" picurl={chimmony} title="Chimmony Waterfalls Trek"/>
             <TrailCard trailLink="/munnar" picurl={munnar} title="Munnar"/>
