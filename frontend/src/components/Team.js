@@ -13,8 +13,8 @@ export default function Team() {
       name: "Haripriya S",
       role: "Club Head",
       desc: "Adventures in the mountains makes us high enough to uplift our soul and cross our limits in the healthiest way.",
-      // email: "102001009@smail.iitpkd.ac.in",
-      // insta: "https://instagram.com/abq1445?igshid=NGExMmI2YTkyZg==",
+      email: "102001009@smail.iitpkd.ac.in",
+      insta: "https://instagram.com/abq1445?igshid=NGExMmI2YTkyZg==",
     },
     {
       photo: "",
