@@ -29,7 +29,7 @@ function App() {
       <Router basename="/">
         <Navbar />
         <Routes>
-          <Route path="/iitpkd_novare" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/trails" element={<Trails />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/articles" element={<Articles />} />
