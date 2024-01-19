@@ -5,7 +5,7 @@ export default function Team() {
   const teamMembers = [
     {
       photo: "",
-      name: "Dr. Vishwas V",
+      name: "Vishwas V",
       role: "Faculty Mentor",
       desc: "Trails winding through woods, Lens captures nature's wonders, Hiking with purpose.",
     },
