@@ -1,4 +1,5 @@
 import ProfileCard from "./ProfileCard";
+import Nature from "../images/nature1.jpg";
 
 export default function Team() {
   const teamMembers = [
@@ -22,7 +23,8 @@ export default function Team() {
       role: "Trip coordinator",
       desc: "I always love to captivate tapestry of life and beauty, where Earth's wonders unfold, and serenity embraces the soul.",
       email: "122001017@smail.iitpkd.ac.in",
-      insta: "https://instagram.com/ajay_kumar_isampalli?igshid=MzNlNGNkZWQ4Mg==",
+      insta:
+        "https://instagram.com/ajay_kumar_isampalli?igshid=MzNlNGNkZWQ4Mg==",
     },
     {
       photo: "",
@@ -78,7 +80,8 @@ export default function Team() {
       role: "Design Team member",
       desc: "I am B20 Civil student. I am a fearless person and I am good in trekking. I have a lot of experience in it. I love trekking because it helps you to energize yourself and fill yourself with positivity.",
       email: "102001004@smail.iitpkd.ac.in",
-      insta: "https://instagram.com/officially_akhilesh?igshid=MzNlNGNkZWQ4Mg==",
+      insta:
+        "https://instagram.com/officially_akhilesh?igshid=MzNlNGNkZWQ4Mg==",
     },
     {
       photo: "",
@@ -99,20 +102,35 @@ export default function Team() {
   ];
 
   return (
-    <div className="z-2 position-relative bg-white">
-      <div className="py-4"></div>
-      <div className="row row-cols-1 row-cols-md-4 g-4 text-center pt-3">
-        {teamMembers.map((member, index) => (
-          <ProfileCard
-            key={index}
-            photo={member.photo}
-            name={member.name}
-            role={member.role}
-            desc={member.desc}
-            email={member.email}
-            insta={member.insta}
-          />
-        ))}
+    <div>
+      <img
+        className="img-fluid position-fixed top-0"
+        src={Nature}
+        alt="something"
+      />
+      <div className="z-2 position-relative">
+        {/* <div className="py-4"></div> */}
+        <div className="text-white text-center container">
+            <p className="display-3 " style={{ paddingTop: "14rem" }}>
+              Team Novare
+            </p>
+            <p className="m-auto fw-light" style={{ paddingBottom: "7rem" }}>
+              Meet the team 
+            </p>
+          </div>
+        <div className="row row-cols-1 row-cols-md-4 g-4 text-center pt-3 bg-white">
+          {teamMembers.map((member, index) => (
+            <ProfileCard
+              key={index}
+              photo={member.photo}
+              name={member.name}
+              role={member.role}
+              desc={member.desc}
+              email={member.email}
+              insta={member.insta}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
