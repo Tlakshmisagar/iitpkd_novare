@@ -5,7 +5,7 @@ const ProfileCard = (props) => {
 
   return (
     <div className="col">
-      <div className="shadow-lg card text-center p-3 img-fluid" data-aos = "zoom-in" >
+      <div className="shadow-lg card text-center p-3 img-fluid" data-aos = "zoom-in"  data-aos-duration='1000'>
         <div>
           <img
             className="card-img-top"

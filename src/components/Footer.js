@@ -6,7 +6,7 @@ export default function Footer() {
       {/* <!-- Footer --> */}
       <footer className="z-2 position-relative text-center text-lg-start bg-dark text-muted Fixed bottom">
         {/* <!-- Section: Social media --> */}
-        <section className="d-flex justify-content-center justify-content-lg-between p-3 border-bottom container">
+        <section className="d-flex justify-content-center justify-content-lg-between p-3 border-bottom container" data-aos='fade-down' data-aos-duration='1000'>
           {/* <!-- Left --> */}
           <div className="me-5 d-none d-lg-block text-white">
             <span>Get connected with us on social networks:</span>
@@ -43,7 +43,7 @@ export default function Footer() {
         {/* <!-- Section: Social media --> */}
 
         {/* <!-- Section: Links  --> */}
-        <section className="">
+        <section className="" data-aos='fade-down' data-aos-duration='1000'>
           <div className="container text-center text-md-start mt-4">
             {/* <!-- Grid row --> */}
             <div className="row mt-1 text-white">
@@ -146,7 +146,7 @@ export default function Footer() {
         {/* <!-- Section: Links  --> */}
 
         {/* <!-- Copyright --> */}
-        <div className="text-center p-3 m-0 text-white">© {year} Copyright:</div>
+        <div className="text-center p-3 m-0 text-white" data-aos='fade-down' data-aos-duration='1000'>© {year} Copyright:</div>
         {/* <!-- Copyright --> */}
       </footer>
       {/* <!-- Footer --> */}

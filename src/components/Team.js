@@ -218,7 +218,7 @@ export default function Team() {
         <div className="bg-white pt-3">
           <div className="container">
             <div className="row mt-5 m-mt-2">
-              <div className="col-lg-7 col-md-12">
+              <div className="col-lg-7 col-md-12" data-aos='fade-right' data-aos-duration='1000'>
                 <h1 className="title-h1 border-bottom-custom mb-3 pb-2 m-d-none">
                   Team Novare
                 </h1>
@@ -250,7 +250,7 @@ export default function Team() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-12">
+              <div className="col-lg-5 col-md-12" data-aos='fade-left' data-aos-duration='1000'>
                 <div className="h-100">
                   <div className="d-flex align-items-center justify-content-center h-100 img-fluid">
                     <div>
