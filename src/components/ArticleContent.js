@@ -7,7 +7,7 @@ export default function TrailContent(props) {
       return (
         <div className="">
           <img
-            className="img-fluid position-fixed"
+            className="img-fluid position-fixed top-0"
             src={Nature}
             //  src="https://drive.google.com/file/d/1ug4PnX-bfpzuCK_eQNEkkgKLBFnyE7-Z/view?usp=sharing"
             //  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6X47X9LAM5y5rpDl_qCk3OK4xoExFp2Q3Q&usqp=CAU"
