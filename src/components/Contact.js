@@ -4,8 +4,8 @@ export default function Contact() {
   let mail_icon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="256"
-      height="256"
+      width="96"
+      height="96"
       fill="currentColor"
       className="bi bi-envelope-open"
       viewBox="0 0 16 16"
@@ -17,8 +17,8 @@ export default function Contact() {
   let insta_icon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="256"
-      height="256"
+      width="96"
+      height="96"
       fill="black"
       className="bi bi-instagram"
       viewBox="0 0 17 17"
@@ -46,31 +46,29 @@ export default function Contact() {
           </p>
         </div>
         <div
-          className="bg-white"
-          style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
+          className="bg-light-subtle"
+          style={{ paddingTop: "6rem", paddingBottom: "7rem" }}
         >
-          <div className="container px-4">
-            <div className="row gx-5">
-              <div className="col ">
+          <div className="container">
+            <div className="row ">
+              <div className="col shadow mx-5" data-aos = "fade-up" data-aos-duration="1500">
                 <div className="py-3 text-center">
-                  <a
-                    href="https://instagram.com/novare_iitpkd?igshid=MzNlNGNkZWQ4Mg=="
-                    className=" text-reset d-flex justify-content-center" target="_blank_" 
-                  >
+                 
                     {insta_icon}
                     
-                  </a>
-                  <h4 className="">Instagram</h4>
-                  <p className="">novare_iitpkd</p>
+                  <h5 className="my-4">Follow us on Instagram</h5>
+                  <p className="my-3">Stay connected with us on Instagram for exclusive content. Follow us to be part of our vibrant community and join the conversation. Your support means the world to us! </p>
+                  <a href="https://instagram.com/novare_iitpkd?igshid=MzNlNGNkZWQ4Mg==">@novare_iitpkd</a>
                 </div>
               </div>
-              <div className="col">
-                <div className="p-3 text-center">
+              <div className="col shadow" data-aos = "fade-up" data-aos-duration="1500">
+                <div className="py-3 text-center">
                   <div className="d-flex justify-content-center">
                     {mail_icon}
                   </div>
-                  <h4 className="">Mail us</h4>
-                  <p className="text-center">novare@iitpkd,ac.in</p>
+                  <h5 className="my-4">We are just an Email away</h5>
+                  <p className="text-center my-3">Feel free to reach out to us at any time via email for personalized support and quick responses. Your inquiries matter to us, and we're here to ensure your experience is top-notch. </p>
+                  <p>Mail id - novare@iitpkd.ac.in</p>
                 </div>
               </div>
             </div>
