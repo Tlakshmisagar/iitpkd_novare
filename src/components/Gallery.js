@@ -1,24 +1,109 @@
-import Nature from "../images/nature1.jpg";
-import { motion } from "framer-motion"
-export default function Gallery() {
-    return (
-        <motion.div className="z-2 position-relative bg-white" initial={{x:-1000, opacity: 0}} animate={{x:0, opacity: 1}} exit={{x:1000, opacity: 0}} transition={{
-            type: "spring",
-            stiffness: 260,
-            damping: 20,
-          }}>
+import React from "react";
+import Gallery from "../images/gallery_1.jpg";
+import Gallery_2 from "../images/gallery_2.jpg";
+import Gallery_4 from "../images/gallery_4.png";
+import Gallery_5 from "../images/gallery_5.png";
 
-            <div className="py-5"></div>
-            <div className="container position-relative">
-                <div className="card text-bg-dark text-center">
-                    <img src={Nature} className="card-img" alt="..." />
-                    <div className="card-img-overlay ">
-                        <h5 className="card-title">Gallery</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </motion.div>
-    )
+function createPaddingStyle(leftPadding, rightPadding) {
+  return {
+    paddingLeft: leftPadding,
+    paddingRight: rightPadding,
+  };
 }
+
+//   const imageContainerStyle = {
+//     position: 'relative', // Position relative for containing the absolutely positioned images
+//     marginBottom: '50px' // Add margin bottom to create space between images
+//   };
+
+//   const imageStyle = {
+//     position: 'absolute', // Position images absolutely
+//     bottom: 0, // Position the images at the bottom of the container
+//     maxWidth: '100%' // Ensure the images don't overflow their containers
+//   };
+
+const GalleryPage = () => {
+  return (
+    <div className="container mb-3">
+      <div className="row mt-5 m-mt-2">
+        <div className="col-lg-7">
+          {/* left big rect */}
+          <div className="row mt-5">
+            <h1>Gallery </h1>
+          </div>
+          <div className="row mt-3 ">
+            <div className="col-lg-5">
+              <img
+                src={Gallery}
+                alt="prop"
+                className=" cursor-pointer"
+                style={{ width: "300px", height: "500px" }}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              />
+            </div>
+            <div className="col-lg-7 text-start d-flex justify-content-center p-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus vel enim consequuntur, recusandae, numquam sequi neque
+              explicabo accusamus saepe adipisci voluptatum ratione ea repellat
+              quo consectetur accusantium natus. Laboriosam, adipisci.
+            </div>
+          </div>
+          <p className="text-start d-flex justify-content-center p-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+            dolorum aut earum, tempora odit atque vitae esse dolorem aspernatur
+            ut eum vel inventore mollitia eligendi officia quos neque molestias
+            ipsum.
+          </p>
+        </div>
+        <div className="col-lg-5 " style={{ marginLeft: "-1.5rem" }}>
+          {/* {Right big rect } */}
+
+          <div class="container mt-5">
+            <div
+              style={{
+                ...createPaddingStyle("7rem", "7rem"),
+                marginBottom: "-3.5rem",
+              }}
+            >
+              <img
+                src={Gallery_2}
+                alt="prop"
+                class="img-fluid position-relative"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              />
+            </div>
+
+            <div
+              style={{
+                ...createPaddingStyle("15rem", "2rem"),
+                marginBottom: "-4rem",
+              }}
+            >
+              <img
+                src={Gallery_5}
+                alt="prop"
+                class="img-fluid position-relative"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              />
+            </div>
+
+            <div style={{ ...createPaddingStyle("1rem", "13rem") }}>
+              <img
+                src={Gallery_4}
+                alt="prop"
+                class="img-fluid position-relative"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default GalleryPage;
