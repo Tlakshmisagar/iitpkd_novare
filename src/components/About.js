@@ -1,9 +1,14 @@
 import Nature from "../images/nature1.jpg";
+import { motion } from "framer-motion"
 // import Nature2 from "../images/nature2.jpg";
 export default function About() {
   return (
     <>
-      <div className="">
+      <motion.div className="" initial={{x:-1000,opacity: 0}} animate={{x:0, opacity: 1}} exit={{x:1000, opacity: 0}} transition={{
+      type: "spring",
+      stiffness: 260,
+      damping: 20,
+    }}>
         <img
           className="img-fluid position-fixed top-0"
           src={Nature}
@@ -93,7 +98,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* <h1 className="py-5">This is about us page</h1> */}
     </>
   );

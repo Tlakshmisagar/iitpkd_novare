@@ -1,4 +1,5 @@
 import Nature from "../images/nature1.jpg";
+import { motion } from "framer-motion"
 
 export default function Contact() {
   let mail_icon = (
@@ -27,7 +28,11 @@ export default function Contact() {
     </svg>
   );
   return (
-    <div className="">
+    <motion.div className="" initial={{x:-1000,opacity: 0}} animate={{x:0, opacity: 1}} exit={{x:1000,opacity: 0}} transition={{
+      type: "spring",
+      stiffness: 260,
+      damping: 20,
+    }}>
       <img
         className="img-fluid position-fixed top-0"
         src={Nature}
@@ -75,6 +80,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

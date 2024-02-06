@@ -1,9 +1,14 @@
 import Nature from "../images/nature1.jpg";
 import Nature2 from "../images/nature2.jpg";
+import { motion } from "framer-motion"
 
 export default function Captions() {
   return (
-    <div className="z-2 position-relative bg-white">
+    <motion.div className="z-2 position-relative bg-white" initial={{x:-1000, opacity: 0}} animate={{x:0, opacity: 1}} exit={{x:1000, opacity: 0}} transition={{
+      type: "spring",
+      stiffness: 260,
+      damping: 20,
+    }}>
       <div
         id="carouselExampleDark"
         className="carousel carousel slide"
@@ -100,6 +105,6 @@ export default function Captions() {
           untamed Indian landscapes. Let the journey begin!
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }

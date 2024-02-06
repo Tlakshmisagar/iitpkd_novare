@@ -26,7 +26,7 @@ export default function TrailCard(props) {
 
   return (
     <Link to={props.trailLink} className="text-decoration-none">
-      <div className="col" data-aos="fade-up" data-aos-duration="1500">
+      <div className="col" data-aos = "fade-up" data-aos-duration="1500">
         <div
           className={`card shadow-lg ${imageLoaded ? "loaded" : "loading"}`}
           style={cardStyle}

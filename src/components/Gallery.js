@@ -1,7 +1,12 @@
 import Nature from "../images/nature1.jpg";
+import { motion } from "framer-motion"
 export default function Gallery() {
     return (
-        <div className="z-2 position-relative bg-white">
+        <motion.div className="z-2 position-relative bg-white" initial={{x:-1000, opacity: 0}} animate={{x:0, opacity: 1}} exit={{x:1000, opacity: 0}} transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}>
 
             <div className="py-5"></div>
             <div className="container position-relative">
@@ -14,6 +19,6 @@ export default function Gallery() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
